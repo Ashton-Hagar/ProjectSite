@@ -1,0 +1,34 @@
+.nav {
+  color: white !important;
+  font-size: xx-large;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Image {
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+}
+
+.customRow {
+  text-align: center;
+  background-image: url(https://images.wallpaperscraft.com/image/single/starry_sky_clouds_sunset_120716_1920x1080.jpg);
+  height: 30vh;
+}
+
+.CenterText {
+  position: relative;
+  top: 30%;
+  color: white;
+  font-size: xx-large;
+}
+
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
