@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ProjectSite.github.io" element={<Home />} />
         <Route path="/ListOfServices" element={<ListOfServices />} />
         <Route path="/OurEmployees" element={<OurEmployees />} />
         <Route path="/Booking" element={<Booking />} />
