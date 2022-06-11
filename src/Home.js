@@ -22,7 +22,7 @@ function Home() {
               onClick={() => {
                 navigate("/ProjectSite");
               }}
-              className="nav"
+              className="nav fontstyle"
             >
               WinTrim Hair Salon
             </Nav.Link>
@@ -62,7 +62,9 @@ function Home() {
       <Container fluid>
         <Row>
           <Col sm={12} className="customRow">
-            <span className="CenterText">Welcome To WinTrim Hair Salon!</span>
+            <span className="CenterText fontstyle">
+              Welcome To WinTrim Hair Salon!
+            </span>
           </Col>
         </Row>
       </Container>
@@ -71,7 +73,7 @@ function Home() {
           <Col>
             <Card style={{ width: "50vw" }}>
               <Card.Body className="Cbody">
-                <Card.Title>Our Story</Card.Title>
+                <Card.Title className="fontstyle">Our Story</Card.Title>
                 <Card.Text>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

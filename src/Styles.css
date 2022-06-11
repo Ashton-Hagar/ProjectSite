@@ -114,3 +114,8 @@
   position: relative;
   top: 10%;
 }
+
+.fontstyle {
+  font-style: italic;
+  font-family: sans-serif;
+}

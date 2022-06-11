@@ -22,7 +22,7 @@ function OurEmployees() {
               onClick={() => {
                 navigate("/ProjectSite");
               }}
-              className="nav"
+              className="nav fontstyle"
             >
               WinTrim Hair Salon
             </Nav.Link>
@@ -71,7 +71,7 @@ function OurEmployees() {
             {" "}
             <Card>
               <Card.Body>
-                <Card.Title>John</Card.Title>
+                <Card.Title className="fontstyle">John</Card.Title>
                 <Card.Text>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -111,7 +111,7 @@ function OurEmployees() {
             {" "}
             <Card>
               <Card.Body className="bg-dark">
-                <Card.Title className="textColor">Aleen</Card.Title>
+                <Card.Title className="textColor fontstyle">Aleen</Card.Title>
                 <Card.Text className="textColor">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

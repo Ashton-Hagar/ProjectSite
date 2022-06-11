@@ -24,7 +24,7 @@ function Booking() {
               onClick={() => {
                 navigate("/ProjectSite");
               }}
-              className="nav"
+              className="nav fontstyle"
             >
               WinTrim Hair Salon
             </Nav.Link>
@@ -70,7 +70,7 @@ function Booking() {
       <Container fluid>
         <Row>
           <Col sm={12} className="customRow3">
-            <span className="CenterText">Booking</span>
+            <span className="CenterText fontstyle">Booking</span>
           </Col>
         </Row>
       </Container>
@@ -78,7 +78,9 @@ function Booking() {
         <Row>
           <Col>
             <Card className="text-center sizeF">
-              <Card.Title>Input Information Here!</Card.Title>
+              <Card.Title className="fontstyle">
+                Input Information Here!
+              </Card.Title>
               <Card.Body>
                 <Container>
                   <Row>
@@ -128,27 +130,53 @@ function Booking() {
                   <Row>
                     <Button
                       onClick={() =>
-                        alert("Thank you for booking with WinTrim")
+                        alert(
+                          "Thank you for booking with WinTrim!\nContact us:\nEmail: Fakeemail@gmail.com\nPhone: 613-222-2323\nAddress: 1305 Chestnut Street"
+                        )
                       }
                     >
                       Confirm Booking
                     </Button>
                   </Row>
                   <Row>
-                    <Card>
-                      <Card.Body>
-                        <Card.Title>Open Hours</Card.Title>
-                        <Card.Text className="size">
-                          Tuesday: 10-7pm<br></br>
-                          Wednesday: 10-8pm<br></br>
-                          Thursday: 10-8pm<br></br>
-                          Friday: 10-8pm<br></br>
-                          Saturday: 9-5pm<br></br>
-                          Sunday: Closed <br></br>
-                          Monday: Closed<br></br>
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
+                    <Col>
+                      <Card>
+                        <Card.Body>
+                          <Card.Title className="fontstyle">
+                            Open Hours
+                          </Card.Title>
+                          <Card.Text className="size">
+                            Tuesday: 10-7pm<br></br>
+                            Wednesday: 10-8pm<br></br>
+                            Thursday: 10-8pm<br></br>
+                            Friday: 10-8pm<br></br>
+                            Saturday: 9-5pm<br></br>
+                            Sunday: Closed <br></br>
+                            Monday: Closed<br></br>
+                            <br></br>
+                            <br></br>
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Col>
+                    <Col>
+                      {" "}
+                      <Card>
+                        <Card.Body>
+                          <Card.Title className="fontstyle">
+                            Open Hours
+                          </Card.Title>
+                          <Card.Text className="size">
+                            Contact Information<br></br>
+                            Email: Fakeemail@gmail.com<br></br>
+                            Phone: 613-222-2323<br></br>
+                            Address: 1305 Chestnut Street
+                            <br></br>
+                            <br></br>
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Col>
                   </Row>
                 </Container>
               </Card.Body>

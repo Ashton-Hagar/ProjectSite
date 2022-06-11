@@ -22,7 +22,7 @@ function ListOfServices() {
               onClick={() => {
                 navigate("/ProjectSite");
               }}
-              className="nav"
+              className="nav fontstyle"
             >
               WinTrim Hair Salon
             </Nav.Link>
@@ -62,7 +62,7 @@ function ListOfServices() {
       <Container fluid>
         <Row>
           <Col sm={12} className="customRow2">
-            <span className="CenterText">Our Services</span>
+            <span className="CenterText fontstyle">Our Services</span>
           </Col>
         </Row>
       </Container>
@@ -71,7 +71,9 @@ function ListOfServices() {
           <Col>
             <Card>
               <Card.Body>
-                <Card.Title className="xlFont">Cutting Service</Card.Title>
+                <Card.Title className="xlFont fontstyle">
+                  Cutting Service
+                </Card.Title>
                 <Card.Text className="ServiceCards">
                   <p>
                     Woman's cut: $50-$100<br></br>
@@ -87,7 +89,9 @@ function ListOfServices() {
             {" "}
             <Card>
               <Card.Body>
-                <Card.Title className="xlFont">Colouring Service</Card.Title>
+                <Card.Title className="xlFont fontstyle">
+                  Colouring Service
+                </Card.Title>
                 <Card.Text className="ServiceCards">
                   <p>
                     Root colour $75+<br></br>
@@ -104,10 +108,10 @@ function ListOfServices() {
             {" "}
             <Card>
               <Card.Body>
-                <Card.Title className="xlFont">
+                <Card.Title className="xlFont fontstyle">
                   Highlighting Services
                 </Card.Title>
-                <Card.Text className="ServiceCards">
+                <Card.Text className="ServiceCards ">
                   <p>
                     Mini highlights $70+<br></br>
                     Partial highlights $90+<br></br>
