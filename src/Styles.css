@@ -4,10 +4,12 @@
 }
 
 .wrapper {
-  height: 100vh;
-  width: 100vw;
+  overflow: hidden;
+  background-color: #343a40;
 }
-
+.wrapperSize {
+  height: 100vh;
+}
 .Image {
   position: relative;
   height: 30vh;
@@ -31,4 +33,84 @@
   padding-left: 0rem;
   padding-right: 0rem;
   overflow: hidden;
+}
+
+.Cbody {
+  position: relative;
+  left: 20%;
+  width: 40vw;
+}
+
+.customCol {
+  background-image: url(https://c0.wallpaperflare.com/preview/878/224/907/hair-beauty-haircut.jpg);
+}
+
+.footer {
+  height: 13.5vh;
+  background-color: #343a40;
+}
+
+.footerText {
+  position: relative;
+  left: 8%;
+  color: white;
+}
+
+.Sizer {
+  height: 20vh;
+}
+
+.xlFont {
+  font-size: xx-large;
+}
+
+.ServiceCards {
+  height: 49vh;
+  font-size: x-large;
+}
+
+.customRow2 {
+  text-align: center;
+  background-image: url(https://images.wallpaperscraft.com/image/single/starry_sky_clouds_sunset_120716_1920x1080.jpg);
+  height: 20vh;
+}
+.customRow3 {
+  text-align: center;
+  background-image: url(https://images.wallpaperscraft.com/image/single/starry_sky_clouds_sunset_120716_1920x1080.jpg);
+  height: 15vh;
+}
+
+.ColImage {
+  background-image: url(https://assets.nrdc.org/sites/default/files/styles/headshot/public/brendan-guy-450.jpg?itok=MK85ttfr);
+  position: relative;
+  height: 30vh;
+}
+
+.ColImage2 {
+  background-image: url(http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg);
+  position: relative;
+  height: 30vh;
+}
+
+.ImagePos {
+  position: relative;
+  left: 8vw;
+}
+
+.ImageSize {
+  width: 50vh;
+  height: 50vh;
+}
+
+.textColor {
+  color: white;
+}
+
+.size {
+  height: 22.5vh;
+}
+
+.sizeF {
+  position: relative;
+  top: 10%;
 }

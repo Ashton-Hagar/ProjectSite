@@ -9,6 +9,7 @@ import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import "./Styles.css";
 import { useNavigate } from "react-router-dom";
+import Card from "react-bootstrap/Card";
 
 function ListOfServices() {
   let navigate = useNavigate();
@@ -19,15 +20,16 @@ function ListOfServices() {
           <Nav>
             <Nav.Link
               onClick={() => {
-                navigate("/");
+                navigate("/ProjectSite");
               }}
               className="nav"
             >
-              Title
+              WinTrim Hair Salon
             </Nav.Link>
           </Nav>
           <Nav className="justify-content-end">
             <Button
+              disabled
               onClick={() => {
                 navigate("/ListOfServices");
               }}
@@ -57,7 +59,87 @@ function ListOfServices() {
           </Nav>
         </Container>
       </Navbar>
-      <div className="CenterText">List Of Services</div>
+      <Container fluid>
+        <Row>
+          <Col sm={12} className="customRow2">
+            <span className="CenterText">Our Services</span>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title className="xlFont">Cutting Service</Card.Title>
+                <Card.Text className="ServiceCards">
+                  <p>
+                    Woman's cut: $50-$100<br></br>
+                    Men's cut: $50+<br></br>
+                    Girl's cut: $40+<br></br>
+                    Boy's cut: $40+<br></br>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            {" "}
+            <Card>
+              <Card.Body>
+                <Card.Title className="xlFont">Colouring Service</Card.Title>
+                <Card.Text className="ServiceCards">
+                  <p>
+                    Root colour $75+<br></br>
+                    All-over colour $90+<br></br>
+                    Men’s colour $50+<br></br>
+                    Color correction $100 per hour<br></br>
+                    Toner $40+<br></br>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            {" "}
+            <Card>
+              <Card.Body>
+                <Card.Title className="xlFont">
+                  Highlighting Services
+                </Card.Title>
+                <Card.Text className="ServiceCards">
+                  <p>
+                    Mini highlights $70+<br></br>
+                    Partial highlights $90+<br></br>
+                    Fullhead of highlights $130+<br></br>
+                    Colour and mini highlights $91+<br></br>
+                    Colour and partial highlights $131+<br></br>
+                    Colour and full highlights $160+<br></br>
+                    Colour and Ombre $210+
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row>
+          <Col sm={12}></Col>
+          <Card className="footer">
+            <Card.Body className="footerText">
+              <Card.Title>Information</Card.Title>
+              <Card.Text>
+                <p>
+                  Email: Fakeemail@gmail.com<br></br>
+                  Phone: 613-222-2323<br></br>
+                  Address: 1305 Chestnut Street
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Row>
+      </Container>
     </div>
   );
 }
