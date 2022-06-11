@@ -164,10 +164,9 @@ function Booking() {
                       <Card>
                         <Card.Body>
                           <Card.Title className="fontstyle">
-                            Open Hours
+                            Contact Information
                           </Card.Title>
                           <Card.Text className="size">
-                            Contact Information<br></br>
                             Email: Fakeemail@gmail.com<br></br>
                             Phone: 613-222-2323<br></br>
                             Address: 1305 Chestnut Street
